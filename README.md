@@ -10,7 +10,7 @@ Crack wps wifi
 * pkg install root-repo -y
 * pip install pycryptodome
 * pkg install git tsu python wpa-supplicant pixiewps iw openssl -y
-* git clone https://github.com/Thaomtam/thoitiet.git
+* git clone https://github.com/autoplay2025/Wifi-Pass.git
 * cd thoitiet
 * chmod +x autoplay.py
 * sudo python autoplay.py -i wlan0 -K
